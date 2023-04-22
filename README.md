@@ -1,36 +1,22 @@
-## 🍰 딥러닝 활용 레터링 케이크 도안 제작 서비스 
+## 🍰 딥러닝 활용 레터링 케이크 도안 제작 서비스
+### 서비스 소개
+딥러닝 모델을 사용해서 나만의 커스텀 디자인을 제작하고, 텍스트 추가 기능을 이용해서 고객이 원하는 레터링 케이크 도안을 쉽게 제작할 수 있는 웹 서비스
+
+### 기획 배경
+- 기존의 레터링 케이크 주문 과정은 고객과 케이크집 모두에게 비효율적임
+- 빠르게 성장하는 레터링 케이크 시장, BUT 전문 플랫폼의 부재
+- 💡 딥러닝 모델을 활용하여 레터링 케이크 도안을 직접 제작할 수 있는 서비스 제안
+- 🎈 레터링 케이크 도안 상담에 필요한 중간 과정을 간소화하여 시간 및 비용 절감 효과 기대, 나아가 플랫폼 비즈니스로 확장 가능
 
 ### 기능 
-
-- 딥러닝 모델 활용 커스텀 디자인 제작
-- 텍스트 추가 기능 
+- 딥러닝 모델 활용한 이미지 스타일 변환 커스텀 디자인 제작
+- 케이크 문구 추가 기능 
 
 ### 딥러닝 모델 및 기술 스택
+- Image Translationg: `PyTorch` 기반 `Image to Painting Translation` 
+- Front-end: `HTML` `CSS` `JavaScript`
+- Back-end: `Flask `
 
-- Image to Painting Translation 
+<img src="https://user-images.githubusercontent.com/61787171/232218129-d430cc5c-6156-465e-9f5f-d9632c9a908e.png"/> 
 
-- 웹페이지: Html/Css, Flask 
-
-<img src="https://user-images.githubusercontent.com/61787171/232218129-d430cc5c-6156-465e-9f5f-d9632c9a908e.png" width="800"  height="300"/> 
-
-
-### 서비스 화면
-
-1. 업로드 화면
-
-<img src="https://user-images.githubusercontent.com/61787171/232212933-fcab2c7d-fcd4-46c5-a581-035005883435.png" width="800"  height="500"/> 
-
-2. 텍스트 추가 화면 
-
-- 글꼴/글자색 선택 
-
-<img src="https://user-images.githubusercontent.com/61787171/232214752-45f6653f-5aa4-4a5a-affb-5290ca77d249.PNG" width="200"  height="200"/> 
-
-<img src="https://user-images.githubusercontent.com/61787171/232214385-4c62ee4d-656d-4a86-b515-af5e89f1ac36.PNG" width="200"  height="200"/> 
-
-
-<img src="https://user-images.githubusercontent.com/61787171/232213515-9d077499-54ae-4fc2-a51b-4b139bbdec81.png" width="800"  height="500"/> 
-
-
-
-
+![](lettering_cake_demo.gif)
