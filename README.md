@@ -13,7 +13,7 @@
 - 케이크 문구 추가 기능 
 
 ### 딥러닝 모델 및 기술 스택
-- Image Translationg: `PyTorch` 기반 `Image to Painting Translation` 
+- Image Translation: `PyTorch` 기반 `Image to Painting Translation` 
 - Front-end: `HTML` `CSS` `JavaScript`
 - Back-end: `Flask `
 
